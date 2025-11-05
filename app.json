@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "navegacao-desafio",
-    "slug": "navegacao-desafio",
+    "name": "Desafio-Navegacao",
+    "slug": "Desafio-Navegacao",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -20,13 +20,20 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.eduardo_milione.NavegacaoDesafio"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
       "expo-router"
-    ]
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "753e9167-9ead-4c4a-b8e0-d1b879b4bef0"
+      }
+    }
   }
 }
